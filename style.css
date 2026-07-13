@@ -37,3 +37,63 @@ nav ul a{
     font-weight: 200;
 
 }
+
+
+/* code connect section */
+
+.common-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+/* code connect section */
+
+/* .codeImg{
+    display: block;
+    margin: 0 auto;
+    max-width: ;
+} */
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 90%;
+
+    max-width: 1600px;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+
+    margin: 0 auto;
+    /* text-align: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: ; */
+}
+
+
+.banner-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+}
+
+.banner-content button {
+    /* margin-bottom: 400px; */
+    /* top: -200px; */
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -50px;
+}
