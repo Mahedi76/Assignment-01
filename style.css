@@ -128,3 +128,116 @@ nav ul a{
     margin: 80px auto;
 
 }
+
+
+/* Secure Your Spot section */
+
+.pricing{
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.secure-heading{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.secure-title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 200;
+    
+}
+
+.secure-card{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:35px 25px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.secure-card.active {
+    background:#0f1c2e;
+    color:white;
+}
+
+.plan{
+    font-size:13px;
+    color:gray;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.active .plan{
+    color:#bfc9d6;
+}
+
+.secure-card h2{
+    font-size:48px;
+    margin:10px 0 5px;
+}
+
+.person{
+    font-size:14px;
+    color:gray;
+    margin-bottom:20px;
+}
+
+.secure-card .person{
+    color:#d2d2d2;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #ddd;
+    margin-bottom:20px;
+    
+}
+
+.secure-card hr{
+    border-color:#30435d;
+}
+
+secure-content {
+    list-style:none;
+    margin-bottom:30px;
+
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+
+    flex-grow:1;
+}
+
+
+/* secure-content li::before{
+    content:"•";
+    color:#3b82f6;
+    margin-right:10px;
+    margin-top: 120px;
+} */
+
+.btn-card {
+    width:100%;
+    padding:14px;
+    border-radius:8px;
+    border:1px solid #3b82f6;
+    background:white;
+    color:#3b82f6;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.active button{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
