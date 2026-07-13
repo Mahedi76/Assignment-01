@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    
+
+
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: #0f1c2e;
+    font-size: 16px;
+    font-weight: 200;
+
+}
